@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02</title>
+</head>
+<body>
+    <p>Foi pedido para o usuário digitar dois números de 0 a 10 mas ele digitou 15. Como resolver?</p>
+
+    <script>
+        let n1 = parseFloat(prompt ("Digite a primeira nota"))
+        let n2 = parseFloat(prompt("Digite a segunda nota"))
+
+        if (n1 <= 10 && n2 <= 10 ){
+            let media = (n1+n2)/2
+            if (media > 4 && n1>0 && n2>0) {
+                alert("APROVADO!")
+            } else {
+                alert("REPROVADO!")
+            }
+        } else {
+            alert("Digite apenas números menores do que 10")
+        }
+
+
+
+
+
+
+        // if (n1 > 10 || n2 > 10 ){
+        //     alert("Digite um número até 10")  
+        // } else {
+        //     let media = (n1+n2)/2
+        //     if (media > 4 && n1>0 && n2>0) {
+        //         alert("APROVADO!")
+        //     } else {
+        //         alert("REPROVADO!")
+        //     }
+        // }
+    </script>
+</body>
+</html>

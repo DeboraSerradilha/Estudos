@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Desafio</h1>
+    <p>
+        1- Crie uma variável e atribua a ela qualquer valor(string, boolean, null ou outro que conheça)
+    </p>
+    <p>
+        2- Utilizando a condicional switch, mostre no console ou alert o tipo da variável
+    </p>
+    <p>
+        3- Tenha uma carta na manga para mostrar uma mensagem padrão caso você desconheça o tipo de variável
+    </p>
+
+
+    <script>
+        let x = "abelha"            //string
+
+        switch(typeof x) {
+            case "string":
+                alert("É uma string")
+            break
+            case "number":
+                alert("É um número")
+            break
+            case "boolean":
+                alert("É booleana")
+            break
+            default:
+            alert("Nenhum tipo conhecido")
+        }
+            
+
+    </script>
+</body>
+</html>

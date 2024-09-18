@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Loops - tabuada</h1>
+    <p>Pedir para o usuário digitar um número e exibir a tabuada do 0 ao 10 desse número</p>
+
+    <script>
+
+        let numero = parseInt(prompt("Digite um número"))
+
+        if (isNaN(numero)) {
+
+            alert("Digite apenas números")
+
+        } else {
+                let contador = 0
+
+                while(contador <= 10){
+                    document.write(numero + " x " + contador + " = " + numero * contador + "<br>")
+                    contador++
+                }    
+            }
+
+    </script>
+    
+</body>
+</html>

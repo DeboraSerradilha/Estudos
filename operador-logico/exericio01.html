@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <h1>Operadores lógicos</h1>
+    <p>Pedir para o usuário digitar dois números entre 0 e 10 e mostrar na tela um boolean indicando se a média é maior que 4.
+        Porém, caso um único número seja 0, deve mostrar false
+    </p>
+
+
+    <script>
+        let n1 = parseFloat(prompt("Digite a nota 1"))
+        let n2 = parseFloat(prompt("Digite a nota 2"))
+
+        let media = (n1+n2)/2
+
+        alert("Está aprovado? " + (media > 4 && n1 > 0 && n2 > 0))
+
+    </script>
+</body>
+</html>
+
+<!-- Operadores lógicos
+! Negação
+&& E            No operador && se uma das condições for falsa, o resultado será falso
+|| OU           No operador || se uma das condições for verdadeira, o resultado será verdadeiro  -->

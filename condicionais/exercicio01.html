@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <h1>Operadores lógicos</h1>
+    <p>Pedir para o usuário digitar dois números e mostrar a mensagem ''APROVADO!'', caso a média seja maior que 4. Caso contrário, mostrar a mensagem ''REPROVADO!''
+    </p>
+
+
+    <script>
+        
+        let n1 = parseFloat(prompt("Digite a nota 1"))
+        let n2 = parseFloat(prompt("Digite a nota 2"))
+
+        let media = (n1+n2)/2
+
+        if (media > 4) {
+            alert("APROVADO!")
+        } else {
+            alert("REPROVADO!")
+        }
+
+    </script>
+</body>
+</html>

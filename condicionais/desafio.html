@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>DESAFIO</h1>
+    <p>
+        1- Pedir para o usuário digitar 2 números e mostrar a mensagem "Aprovado!" caso a média seja maior que 4 e nenhuma nota seja igual à 0.
+    <p>
+    <p>
+        2- Mostre a mensagem "Reprovado!" Caso a média seja menor ou igual à 4 ou exista pelo menos uma nota igual à 0.
+    </p>
+
+    <script>
+        let n1 = parseFloat(prompt ("Digite a primeira nota"))
+        let n2 = parseFloat(prompt("Digite a segunda nota"))
+
+        let media = (n1+n2)/2
+
+        if (media > 4 && n1>0 && n2>0){
+            alert("APROVADO!")
+        } else {
+            alert("REPROVADO!")
+        }
+
+    </script>
+</body>
+</html>
